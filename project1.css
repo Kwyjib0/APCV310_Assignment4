@@ -1,0 +1,70 @@
+<style>
+
+h1 {
+	text-align: center; /* align main heading to center of page */
+	font-size: 28pt; /* main heading font size */
+	font-weight: bold; /* make main heading font bold */
+}
+
+body {
+  	background-color: white; /* white background for the page */
+	color: navy; /* text color for body of page */
+  	font-size: 14pt; /* font size for body text */
+  	font-family: 'Georgia', 'Garamond', serif; /* font families for body text */
+}
+
+h1, h2, h3 {
+	color: paleturquoise; /* set text color for headings */
+	background-color: midnightblue; /* set background color for headings */
+	font-family: 'Century Gothic', 'Futura', 'Verdana', sans-serif; /* font families for headings */
+  	text-decoration: underline; /* underline text in headings */
+}
+
+h2, h3 {
+	text-align: left; /* align other headings to the left */
+	font-size: 20pt; /* set font size for other headings */
+	font-weight: normal; /* set the boldness of the text in other headings to normal */
+}
+
+a { 
+	color: paleturquoise; /* make text in links pale turquoise */
+}
+
+.framed-image {
+	border: 5px solid black; /* Adds a solid black border */
+        padding: 10px; /* Adds space between the border and the image */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
+        border-radius: 15px; /* Rounds the corners of the border */
+       	display: block; /* display image as a block element */
+       	margin: 0 auto; /* horizontally center the image */
+}
+
+.container {
+       	display: flex; /* use flexbox for the container */
+       	justify-content: space-around; /* adjust spacing around flexbox items */
+       	align-items: center; /* align flexbox items vertically in the center */
+}
+
+.guide {
+	width: 400px; /* set background width for the guide link */
+	height: 200px; /* set background height for the guide link */
+	background-color: midnightblue; /* set background color for the guide link to midnight blue */
+	border-radius: 50%; /* round the corners of the guide link */
+	display: flex; /* use flexbox for the guide link */
+	justify-content: center; /* center the flexbox items horizontally within the guide link */
+	align-items: center; /* align the flexbox items vertically in the center of the guide link */
+	text-decoration: none; /* remove the underline from the button text */
+}
+
+.button {
+	padding: 10px 20px; /* add padding inside the button */
+	background-color: midnightblue; /* set background color of the button */
+	text-decoration: none; /* remove the underline from the button text */
+	border-radius: 5px; /* round the corners of the button */
+}
+
+.button:hover {
+	background-color: blue; /* lightens the button color when the cursor hovers over it */
+}
+
+</style>

@@ -1,0 +1,45 @@
+<style>
+
+ul {
+        margin: 0 auto; /* horizontally center unordered lists */
+        width: fit-content; /* adjust width to fit the container */           
+}
+
+li {
+        text-align: left; /* align all list items to the left */
+        padding: 5px 0; /* add padding to list items */
+}
+
+body {
+	background-color: lightblue; /* set background color of the whole page to light blue */
+}
+
+h1, h2 {
+	text-align: center; /* center h1 and h2 headers */
+}
+
+img {
+       	display: block; /* display image as a block element */
+       	margin: 0 auto; /* horizontally center the image */
+}
+
+.button {
+	padding: 10px 20px; /* add padding inside the button */
+	color: white; /* set the text color of the button */
+	background-color: green; /* set background color of the button  */
+	text-decoration: none; /* remove the underline from the button text */
+	border-radius: 5px; /* round the corners of the button */
+}
+
+.button:hover {
+	background-color: lightgreen; /* lightens the button color when the cursor hovers over it */
+}
+        
+.container {
+       	display: flex; /* use flexbox for the container */
+       	justify-content: space-around; /* adjust spacing between flexbox items */
+       	align-items: center; /* align flexbox items vertically in the center */
+
+}	
+
+</style>	
